@@ -13,7 +13,9 @@
                  [org.apache.xmlgraphics/batik-svggen "1.15"]
                  [com.github.kenglxn.qrgen/javase "2.6.0" :exclusions [com.google.zxing/javase
                                                                        org.apache.xmlgraphics/batik-dom
-                                                                       org.apache.xmlgraphics/batik-svggen]]]
+                                                                       org.apache.xmlgraphics/batik-svggen]]
+                 [base32-clj "0.1.0"]]
+  
   :plugins      [[lein-ancient "1.0.0-RC4-SNAPSHOT"]]
   :profiles {:dev    {:plugins      [[lein-cloverage "1.2.4"]
                                      [lein-codox "0.10.8"]
